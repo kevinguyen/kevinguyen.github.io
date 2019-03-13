@@ -1,0 +1,166 @@
+.bannerimages {
+  width: 100%;
+  /* background-image:url(../images/banner2.jpg); */
+  height: 900px;
+  background-color:transparent;
+  background-position:;
+  margin-top:-25px;
+  z-index:-1;
+  position: absolute;
+}
+
+
+.teamHomebanner {
+  width: 100%;
+  /* background-image:url(../images/banner2.jpg); */
+  height: 450px;
+  background-color:transparent;
+  background-position:;
+  margin-top:120px;
+  z-index:-1;
+  position: absolute;
+}
+
+
+.homeIMGS {
+  margin-top:0px;
+  margin-bottom:10px;
+  z-index:auto;
+ display: inline-block;
+position: relative;
+        clear:both;
+}
+
+.largeImages{
+width: 100%;
+  z-index:auto;
+ display: inline-block;
+position: relative;
+        clear:both;
+}
+
+
+
+.gallery{
+height:500px;
+width: 600px;
+  z-index:auto;
+ display: inline-block;
+position: relative;
+        clear:both;
+}
+
+
+
+/*FONTS*/
+font-family: bebas-neue, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+font-family: bebas-neue-by-fontfabric, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+font-family: bebas-neue-by-fontfabric, sans-serif;
+font-weight: 700;
+font-style: normal;
+
+font-family: open-sans, sans-serif;
+font-style: normal;
+font-weight: 400;
+
+
+body{
+
+  font-family: 'open-sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  min-width: 1280px;
+}
+
+
+#rpld
+{
+font-family: 'bebas-neue', sans-serif;
+/* letter-spacing: -3px; */
+color: white;
+text-align: center;
+font-size: 90px;
+font-weight:400px;
+font-style:normal;
+margin-bottom:700px;
+margin-top: 100px;
+}
+
+#quote
+{
+font-family: 'bebas-neue', sans-serif;
+/* letter-spacing: -3px; */
+color: #f3373c;
+text-align: center;
+font-size: 90px;
+font-weight:400px;
+font-style:normal;
+margin-bottom:300px;
+margin-top: 300px;
+}
+
+
+
+
+
+h1{
+font-family: bebas-neue-by-fontfabric, sans-serif;
+color:#f3373c;
+font-weight: 700px;
+font-size: 70px;
+font-style:normal;
+}
+
+h2{
+font-family: bebas-neue-by-fontfabric, sans-serif;
+font-weight: 400;
+font-size:60px;
+font-style: normal;
+}
+
+h3{
+font-family: bebas-neue, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size:65px;
+font-style: normal;
+}
+
+/* Navigation Bar */
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+color:#ffffff ;
+
+  float: right;
+  text-align: center;
+  padding: 10px 14px 20px;
+  text-decoration: none;
+  font-family: 'bebas-neue', sans-serif;
+font-weight: 700px;
+font-size: 30px;
+
+}
+
+/* .topnav a:hover {
+  color: #ddd;
+} */
+
+/* .topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+} */
+
+
+
+
+
