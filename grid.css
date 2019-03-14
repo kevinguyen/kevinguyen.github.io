@@ -1,3 +1,5 @@
+
+
 .main {
     display: grid;
     grid-gap: 10px;
@@ -40,14 +42,18 @@
     .nine { grid-column-end: span 9 }
     .ten { grid-column-end: span 10 }
     .eleven { grid-column-end: span 11 }
+
 }
 
 
 body{
-
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
   font-family: 'open-sans', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  min-width: 1280px;
+  min-width: 480px;
 }

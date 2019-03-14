@@ -1,6 +1,17 @@
 .bannerimages {
   width: 100%;
   /* background-image:url(../images/banner2.jpg); */
+  height: 750px;
+  background-color:transparent;
+  background-position:;
+  margin-top:-25px;
+  z-index:-1;
+  position: absolute;
+}
+
+.homeBanner {
+  width: 100%;
+  /* background-image:url(../images/banner2.jpg); */
   height: 900px;
   background-color:transparent;
   background-position:;
@@ -9,16 +20,15 @@
   position: absolute;
 }
 
-
 .teamHomebanner {
   width: 100%;
-  /* background-image:url(../images/banner2.jpg); */
   height: 450px;
   background-color:transparent;
   background-position:;
-  margin-top:120px;
+  margin-top:100px;
   z-index:-1;
   position: absolute;
+  float:left;
 }
 
 
@@ -29,10 +39,11 @@
  display: inline-block;
 position: relative;
         clear:both;
+        max-width: 100%;
 }
 
 .largeImages{
-width: 100%;
+max-width: 100%;
   z-index:auto;
  display: inline-block;
 position: relative;
@@ -42,17 +53,18 @@ position: relative;
 
 
 .gallery{
-height:500px;
-width: 600px;
+height:450px;
+width: 500px;
   z-index:auto;
  display: inline-block;
 position: relative;
         clear:both;
+        max-width: 100%;
 }
 
 
 
-/*FONTS*/
+/* FONTS
 font-family: bebas-neue, sans-serif;
 font-weight: 400;
 font-style: normal;
@@ -67,16 +79,22 @@ font-style: normal;
 
 font-family: open-sans, sans-serif;
 font-style: normal;
-font-weight: 400;
+font-weight: 400; */
 
 
 body{
+    width:100%;
 
   font-family: 'open-sans', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  min-width: 1280px;
+ /*  font-weight: 400;
+ font-size: 18px;
+ min-width: 1280px; */
+      
+    font-size-adjust:none;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+
 }
 
 
@@ -89,9 +107,37 @@ text-align: center;
 font-size: 90px;
 font-weight:400px;
 font-style:normal;
-margin-bottom:700px;
+margin-bottom:0px;
 margin-top: 100px;
 }
+
+
+#sjc
+{
+font-family: 'bebas-neue', sans-serif;
+/* letter-spacing: -3px; */
+color: white;
+text-align: center;
+font-size: 65px;
+font-weight:400px;
+font-style:normal;
+margin-bottom:500px;
+margin-top: 0px;
+}
+
+#mainTitles
+{
+font-family: 'bebas-neue', sans-serif;
+/* letter-spacing: -3px; */
+color: white;
+text-align: center;
+font-size: 90px;
+font-weight:400px;
+font-style:normal;
+margin-bottom:500px;
+margin-top: 100px;
+}
+
 
 #quote
 {
@@ -143,12 +189,12 @@ color:#ffffff ;
 
   float: right;
   text-align: center;
-  padding: 10px 14px 20px;
+  padding: 20px 10px 14px 20px;
   text-decoration: none;
   font-family: 'bebas-neue', sans-serif;
 font-weight: 700px;
 font-size: 30px;
-
+top-margin:10px;
 }
 
 /* .topnav a:hover {
