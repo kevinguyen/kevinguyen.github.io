@@ -60,7 +60,7 @@ function draw() {
   translate(0, 50);
   rotateX(PI/3);
   fill(beta+100,gamma+75,gamma+180,75);
-  stroke(200,beta,200,45);
+  stroke(200,beta,gamma*1.2,45);
   translate(-w/2, -h/2);
   for (var y = 0; y < rows-1; y++) {
     beginShape(TRIANGLE_STRIP);
