@@ -54,7 +54,7 @@ function draw() {
   background(0);
 
   
-  translate(0, 50);
+  translate(0, 90);
   rotateX(PI/3);
   fill(beta+100,gamma+75,gamma+180,75);
   stroke(233,30,gamma,50);
