@@ -14,8 +14,13 @@ var terrain = [];
 
 
 function setup() {
-var cnv = createCanvas(windowWidth, windowHeight);
-  cnv.style('display', 'block'); 
+  createCanvas(windowWidth, windowHeight,WEBGL);
+
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight,WEBGL);
+}
   
 
   cols = w / scl;
