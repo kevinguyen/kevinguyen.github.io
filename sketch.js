@@ -34,10 +34,7 @@ cols = w / scl;
 }
 
 
-function windowResized() {
-  resizeCanvas(windowWidth, windowHeight,WEBGL);
-}
-  
+
 
 
 
