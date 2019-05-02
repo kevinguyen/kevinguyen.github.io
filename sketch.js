@@ -3,7 +3,7 @@ var alpha, beta, gamma;
 var cols, rows;
 var scl = 20;
 var w = 2160;
-var h = 1080;
+var h = 2080;
 var flying = 0;
 var terrain = [];
 
