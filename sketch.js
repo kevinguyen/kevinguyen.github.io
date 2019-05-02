@@ -17,13 +17,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight,WEBGL);
 
 
-
-function windowResized() {
-  resizeCanvas(windowWidth, windowHeight,WEBGL);
-}
-  
-
-  cols = w / scl;
+cols = w / scl;
   rows = h/ scl;
   
   alpha = 670;
@@ -38,6 +32,13 @@ function windowResized() {
     }
   }
 }
+
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight,WEBGL);
+}
+  
+
 
 
 
