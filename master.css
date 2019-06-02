@@ -1,0 +1,1354 @@
+html, body {
+    /*  margin: 0px; */
+     width: 100%;
+     height: 100%;
+/*      border: 30px;
+      */     display: block;
+     box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+h6{
+   font-family: garamond-premier-pro-caption, serif;
+     font-weight: 500;
+     font-style: normal;
+     color: #00;
+     font-size: 1.2vw;
+}
+
+/* GRID */
+/* Create three equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 17.5%;
+  padding: 10px;
+}
+
+.column2 {
+  float: left;
+  width: 65%;
+  padding: 10px;
+
+}
+
+.column3 {
+  float: left;
+  width: 17.5%;
+  padding: 10px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+
+
+
+
+
+#name {
+     position: relative;
+     top: 50%;
+    left: 50%; 
+     transform: translate(-50%, -50%); 
+     font-family: garamond-premier-pro, serif;
+     font-weight: 400;
+     font-style: normal;
+     text-transform: uppercase;
+     color: #fff;
+    text-align: center;
+          font-size: 3.5vw;
+     letter-spacing: .8em;
+}
+
+
+ .fade-in {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+} 
+
+
+
+#name .fade-in{
+    position: relative;
+     top: 50%;
+    left: 50%; 
+     transform: translate(-50%, -50%); 
+     font-family: garamond-premier-pro, serif;
+     font-weight: 400;
+     font-style: normal;
+     text-transform: uppercase;
+     color: #fff;
+    text-align: center;
+          font-size: 3.5vw;
+     letter-spacing: .8em;
+
+       opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+} 
+
+
+
+
+#nameAbout {
+     position: absolute;
+ /*    top: 25%;
+  left: 90%;  */
+           font-family: garamond-premier-pro, serif;
+     font-weight: 400;
+     font-style: normal;
+     text-transform: uppercase;
+     color: #000;
+ /* text-align: center; */  
+   font-size: 50px;
+     letter-spacing: .8em;
+  /*    margin-left:auto;
+      margin-right:auto;  */
+/*      width:1100px; */
+     
+}
+
+#bio {
+     position: relative;
+     margin-top: 210px;
+     /* left: 200px;   */
+     font-family: garamond-premier-pro, serif;
+     font-weight: 600;
+     font-style: normal;
+     color: #00;
+     font-size: 16px;
+/*     text-align: center; 
+      */     /* margin: auto;
+     width:50%; */
+     letter-spacing: 1px;
+     line-height: 19px;
+
+}
+
+#contact{
+     position: absolute;
+     top: 555px; 
+     font-family: garamond-premier-pro-caption, serif;
+     font-weight: 400;
+     font-style: normal;
+     color: #00;
+     font-size: 19px;
+     letter-spacing: 0em;
+     line-height: 18px;
+    
+    
+}
+
+.biocontainer{
+/* position: absolute;
+width:100%; 
+
+ left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); */
+  
+/*  margin: 190px auto;
+ width: 65%;  */
+/*  margin-bottom: 100px;
+ */ }
+
+
+
+
+#aboutContact{
+     position: relative;
+     top: 550px;
+     font-family: garamond-premier-pro-display, serif;
+     font-weight: 300;
+     font-style: normal;
+     text-transform: lowercase;
+     color: #fff;
+     text-align: right;
+     font-size: 18px;
+     letter-spacing: .2em;
+
+}
+
+a{
+      color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+#navR{
+     font-family: garamond-premier-pro-display, serif;
+     font-weight: 300;
+     font-style: normal;
+     text-transform: lowercase;
+     color: #fff;
+     font-size: 18px;
+     letter-spacing: .2em;
+    text-decoration: none;
+   position:absolute;
+   top:20px;
+   right:20px;
+}
+
+
+#navRabout{
+     font-family: garamond-premier-pro-display, serif;
+     font-weight: 300;
+     font-style: normal;
+     text-transform: lowercase;
+     font-color: black;
+     font-size: 18px;
+     letter-spacing: .2em;
+    text-decoration: none;
+   position:absolute;
+   top:20px;
+   right:20px;
+}
+
+#navL{
+     font-family: garamond-premier-pro-display, serif;
+     font-weight: 300;
+     font-style: normal;
+     text-transform: lowercase;
+     color: #fff;
+     font-size: 18px;
+     letter-spacing: .2em;
+    text-decoration: none;
+   position:absolute;
+   top:20px;
+   left:20px;
+}
+
+
+#back{
+   background-image: url(imgs/back1.svg);
+   width:90px;
+   height:20px;
+   display: block;
+
+
+   
+    text-indent:-9999px;
+    background-repeat: no-repeat;
+
+ }
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+     
+footer{
+margin-top: 0px;
+      padding-bottom: 200px;
+}
+
+     #name {
+     position: relative;
+     top: 50%;
+    left: 50%; 
+     transform: translate(-50%, -50%); 
+     font-family: garamond-premier-pro, serif;
+     font-weight: 400;
+     font-style: normal;
+     text-transform: uppercase;
+     color: #fff;
+    text-align: center;
+          font-size: 3.5vw;
+     letter-spacing: .8em;
+}
+
+#nameAbout {
+     position: relative;
+    margin-top: 25%;
+ /*  left: 90%; */
+           font-family: garamond-premier-pro, serif;
+     font-weight: 400;
+     font-style: normal;
+     text-transform: uppercase;
+     color: #000;
+  text-align: center; 
+   font-size: 7vw;
+     letter-spacing: .8em;
+  /*    margin-left:auto;
+      margin-right:auto;  */
+/*      width:1100px; */
+     
+}
+
+#bio {
+     position: relative;
+     margin-top:70px;
+     /* left: 200px;   */
+     font-family: garamond-premier-pro-caption, serif;
+     font-weight: 400;
+     font-style: normal;
+     color: #00;
+     font-size: 2vw;
+/*     text-align: center; 
+      */     /* margin: auto;
+     width:50%; */
+
+}
+
+#contact{
+     position: relative;
+     margin-top: -530px; 
+     font-family: garamond-premier-pro-caption, serif;
+     font-weight: 400;
+     font-style: normal;
+     color: #00;
+     font-size: 2.1vw;
+     letter-spacing: 0em;
+     line-height: 2px;
+    
+    
+}
+
+.biocontainer{
+/* position: absolute;
+width:100%; 
+
+ left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); */
+  margin-top: 30px;
+}
+
+#navRabout{
+     font-family: garamond-premier-pro-display, serif;
+     font-weight: 300;
+     font-style: normal;
+     text-transform: lowercase;
+     font-color: black;
+     font-size: 3vw;
+     letter-spacing: .2em;
+    text-decoration: none;
+   position:absolute;
+   top:20px;
+   right:20px;
+}
+
+
+
+
+#back{
+   background-image: url(imgs/back1.svg);
+   background-size: 70%;
+   display: block;
+    text-indent:-9999px;
+   background-repeat: no-repeat;
+
+ }
+
+ #khanhcustom{
+background-image: url(imgs/khanh.jpg);
+   background-size: 100%;
+   display: block;
+    text-indent:-9999px;
+   /* background-repeat: no-repeat; */
+   margin-top:50%;
+   height:100%;
+ }
+
+.work1{
+    margin-top: 400px;
+     height: 100px;
+ 
+}
+
+.work2{
+    margin-top: 150px;
+     height: 100px;
+ 
+
+}
+
+.number
+{
+      -webkit-transform: rotate(-90deg) translateX(-4.5%);
+        -webkit-transform-origin: left top;
+         position: relative;
+         transform-origin: -1% 80%;
+         font-size: 1.3vw;
+}
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+
+.caption {
+        -webkit-transform-origin: left bottom;
+         position: absolute;
+         transform-origin: -0% 80%;
+          font-family: garamond-premier-pro-caption, serif;
+     font-weight: 500;
+     font-style: normal;
+     color: #00;
+     text-transform: uppercase;
+     font-size: 1.2vw;
+}
+
+} 
+
+
+
+/* Small devices (portrait tablets and large phones, 601px and up) */
+@media only screen and (min-width: 601px) {
+
+
+footer{
+margin-top: 0px;
+      padding-bottom: 250px;
+}
+
+
+
+ #name {
+     position: relative;
+     top: 50%;
+    left: 50%; 
+     transform: translate(-50%, -50%); 
+     font-family: garamond-premier-pro, serif;
+     font-weight: 400;
+     font-style: normal;
+     text-transform: uppercase;
+     color: #fff;
+    text-align: center;
+          font-size: 3.5vw;
+     letter-spacing: .8em;
+}
+
+#nameAbout {
+     position: relative;
+    margin-top: 25%;
+ /*  left: 90%; */
+           font-family: garamond-premier-pro, serif;
+     font-weight: 400;
+     font-style: normal;
+     text-transform: uppercase;
+     color: #000;
+text-align: center; 
+  font-size: 7vw;
+     letter-spacing: .8em;
+  /*    margin-left:auto;
+      margin-right:auto;  */
+/*      width:1100px; */
+     
+}
+
+#bio {
+     position: relative;
+     margin-top: 85px;
+     /* left: 200px;   */
+     font-family: garamond-premier-pro-caption, serif;
+     font-weight: 400;
+     font-style: normal;
+     color: #00;
+     font-size: 2vw;
+/*     text-align: center; 
+      */     /* margin: auto;
+     width:50%; */
+
+}
+
+#contact{
+     position: relative;
+     margin-top: -550px; 
+     font-family: garamond-premier-pro-caption, serif;
+     font-weight: 400;
+     font-style: normal;
+     color: #00;
+     font-size: 2vw;
+     letter-spacing: 0em;
+     line-height: 10px;
+    
+    
+}
+
+.biocontainer{
+/*  position: absolute;
+*/
+ 
+/*  left: 50%;
+ top: 50%;
+ transform: translate(-50%, -50%); */
+margin-top: 30px;  
+/* margin: 190px auto;
+    width:80%;  */
+
+}
+
+#navRabout{
+     font-family: garamond-premier-pro-display, serif;
+     font-weight: 300;
+     font-style: normal;
+     text-transform: lowercase;
+     font-color: black;
+     font-size: 2vw;
+     letter-spacing: .2em;
+    text-decoration: none;
+   position:absolute;
+   top:20px;
+   right:20px;
+}
+
+
+
+
+#back{
+   background-image: url(imgs/back.png);
+   background-size: 58%;
+   display: block;
+    text-indent:-9999px;
+   background-repeat: no-repeat;
+
+ }
+
+
+
+
+
+ #khanhcustom{
+background-image: url(imgs/khanh.jpg);
+   background-size: 100%;
+   display: block;
+    text-indent:-9999px;
+   /* background-repeat: no-repeat; */
+   margin-top:50%;
+   height:100%;
+ }
+
+.work1{
+    margin-top: 450px;
+     height: 100px;
+ 
+}
+
+.work2{
+    margin-top: 200px;
+     height: 100px;
+ 
+
+}
+
+.number
+{
+      -webkit-transform: rotate(-90deg) translateX(-4.5%);
+        -webkit-transform-origin: left top;
+         position: relative;
+         transform-origin: -1% 80%;
+         font-size: 1.3vw;
+}
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+
+.caption {
+        -webkit-transform-origin: left bottom;
+         position: absolute;
+         transform-origin: -0% 80%;
+          font-family: garamond-premier-pro-caption, serif;
+     font-weight: 500;
+     font-style: normal;
+     color: #00;
+     text-transform: uppercase;
+     font-size: 1.2vw;
+}
+
+
+
+}
+
+
+
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+
+
+
+  footer{
+margin-top: 0px;
+      padding-bottom: 400px;
+}
+
+
+
+     #name {
+     position: relative;
+     top: 50%;
+    left: 50%; 
+     transform: translate(-50%, -50%); 
+     font-family: garamond-premier-pro, serif;
+     font-weight: 400;
+     font-style: normal;
+     text-transform: uppercase;
+     color: #fff;
+    text-align: center;
+          font-size: 3.5vw;
+     letter-spacing: .8em;
+}
+
+#nameAbout {
+     position: relative;
+    margin-top: 25%;
+ /*  left: 90%; */
+           font-family: garamond-premier-pro, serif;
+     font-weight: 400;
+     font-style: normal;
+     text-transform: uppercase;
+     color: #000;
+/*   text-align: center; 
+    */   font-size: 7vw;
+     letter-spacing: .8em;
+  /*    margin-left:auto;
+      margin-right:auto;  */
+/*      width:1100px; */
+     
+}
+
+#bio {
+     position: relative;
+     margin-top: 175px;
+     /* left: 200px;   */
+     font-family: garamond-premier-pro-caption, serif;
+     font-weight: 400;
+     font-style: normal;
+     color: #00;
+     font-size: 2vw;
+/*     text-align: center; 
+      */     /* margin: auto;
+     width:50%; */
+
+}
+
+#contact{
+     position: relative;
+     margin-top: -450px; 
+     font-family: garamond-premier-pro-caption, serif;
+     font-weight: 400;
+     font-style: normal;
+     color: #00;
+     font-size: 2vw;
+     letter-spacing: 0em;
+    
+    
+}
+
+.biocontainer{
+/* position: absolute;
+width:100%; 
+
+ left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); */
+  margin-top: 30px;
+}
+
+#navRabout{
+     font-family: garamond-premier-pro-display, serif;
+     font-weight: 300;
+     font-style: normal;
+     text-transform: lowercase;
+     font-color: black;
+     font-size: 2vw;
+     letter-spacing: .2em;
+    text-decoration: none;
+   position:absolute;
+   top:20px;
+   right:20px;
+}
+
+#navL{
+   position:absolute;
+   top:20px;
+   left:20px;
+ background-image: url(imgs/back);
+      background-repeat: no-repeat;
+}
+
+
+
+#back{
+   background-image: url(imgs/back.png);
+   background-size: 60%;
+   display: block;
+    text-indent:-9999px;
+   background-repeat: no-repeat;
+
+ }
+
+
+ #khanhcustom{
+background-image: url(imgs/khanh.jpg);
+   background-size: 100%;
+   display: block;
+    text-indent:-9999px;
+   /* background-repeat: no-repeat; */
+   margin-top:50%;
+   height:100%;
+ }
+
+.work1{
+    margin-top: 650px;
+     height: 100px;
+ 
+}
+
+.work2{
+    margin-top: 250px;
+     height: 100px;
+ 
+
+}
+
+.number
+{
+      -webkit-transform: rotate(-90deg) translateX(-4.5%);
+        -webkit-transform-origin: left top;
+         position: relative;
+         transform-origin: -1% 80%;
+         font-size: 1.3vw;
+}
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+
+.caption {
+        -webkit-transform-origin: left bottom;
+         position: absolute;
+         transform-origin: -0% 80%;
+          font-family: garamond-premier-pro-caption, serif;
+     font-weight: 500;
+     font-style: normal;
+     color: #00;
+     text-transform: uppercase;
+     font-size: 1.2vw;
+}
+
+
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  footer{
+margin-top: 0px;
+      padding-bottom: 400px;
+}
+
+#name {
+     position: relative;
+     top: 50%;
+    left: 50%; 
+     transform: translate(-50%, -50%); 
+     font-family: garamond-premier-pro, serif;
+     font-weight: 400;
+     font-style: normal;
+     text-transform: uppercase;
+     color: #fff;
+    text-align: center;
+          font-size: 3.5vw;
+     letter-spacing: .8em;
+}
+
+#nameAbout {
+     position: relative;
+    margin-top: 25%;
+ /*  left: 90%; */
+           font-family: garamond-premier-pro, serif;
+     font-weight: 400;
+     font-style: normal;
+     text-transform: uppercase;
+     color: #000;
+/*   text-align: center; 
+    */   font-size: 3.66vw;
+     letter-spacing: .8em;
+  /*    margin-left:auto;
+      margin-right:auto;  */
+/*      width:1100px; */
+     
+}
+
+#bio {
+     position: relative;
+     margin-top: 125px;
+     /* left: 200px;   */
+     font-family: garamond-premier-pro-caption, serif;
+     font-weight: 400;
+     font-style: normal;
+     color: #00;
+     font-size: 1.2vw;
+/*     text-align: center; 
+      */     /* margin: auto;
+     width:50%; */
+
+}
+
+#contact{
+     position: relative;
+     margin-top: -535px; 
+     font-family: garamond-premier-pro-caption, serif;
+     font-weight: 400;
+     font-style: normal;
+     color: #00;
+     font-size: 1.2vw;
+     letter-spacing: 0em;
+    
+    
+}
+
+.biocontainer{
+/* position: absolute;
+width:100%; 
+
+ left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); */
+  margin-top: 100px;
+}
+
+#navRabout{
+     font-family: garamond-premier-pro-display, serif;
+     font-weight: 300;
+     font-style: normal;
+     text-transform: lowercase;
+     font-color: black;
+     font-size: 1.2vw;
+     letter-spacing: .2em;
+    text-decoration: none;
+   position:absolute;
+   top:20px;
+   right:20px;
+}
+
+#navL{
+   position:absolute;
+   top:20px;
+   left:20px;
+ background-image: url(imgs/back);
+      background-repeat: no-repeat;
+}
+
+
+
+#back{
+   background-image: url(imgs/back.png);
+   background-size: 60%;
+   display: block;
+    text-indent:-9999px;
+   background-repeat: no-repeat;
+
+ }
+
+
+ #khanhcustom{
+background-image: url(imgs/khanh.jpg);
+   background-size: 100%;
+   display: block;
+    text-indent:-9999px;
+   /* background-repeat: no-repeat; */
+   margin-top:50%;
+   height:100%;
+ }
+
+.work1{
+    margin-top: 400px;
+     height: 100px;
+ 
+}
+
+.work2{
+    margin-top: 350px;
+     height: 100px;
+ 
+
+}
+
+.number
+{
+      -webkit-transform: rotate(-90deg) translateX(-4.5%);
+        -webkit-transform-origin: left top;
+         position: relative;
+         transform-origin: -1% 80%;
+         font-size: 1.3vw;
+}
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+
+.caption {
+        -webkit-transform-origin: left bottom;
+         position: absolute;
+         transform-origin: -0% 80%;
+          font-family: garamond-premier-pro-caption, serif;
+     font-weight: 500;
+     font-style: normal;
+     color: #00;
+     text-transform: uppercase;
+     font-size: 1.2vw;
+}
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+  footer{
+margin-top: 0px;
+      padding-bottom: 700px;
+}
+
+#name {
+     position: relative;
+     top: 50%;
+    left: 50%; 
+     transform: translate(-50%, -50%); 
+     font-family: garamond-premier-pro, serif;
+     font-weight: 400;
+     font-style: normal;
+     text-transform: uppercase;
+     color: #fff;
+    text-align: center;
+          font-size: 3.5vw;
+     letter-spacing: .8em;
+}
+
+#nameAbout {
+     position: relative;
+    margin-top: 20%;
+ /*  left: 90%; */
+           font-family: garamond-premier-pro, serif;
+     font-weight: 400;
+     font-style: normal;
+     text-transform: uppercase;
+     color: #000;
+/*   text-align: center; 
+    */   font-size: 3.683vw;
+     letter-spacing: .8em;
+  /*    margin-left:auto;
+      margin-right:auto;  */
+/*      width:1100px; */
+     
+}
+
+#bio {
+     position: relative;
+     top: 70px;
+     /* left: 200px;   */
+     font-family: garamond-premier-pro-caption, serif;
+     font-weight: 400;
+     font-style: normal;
+     color: #00;
+     font-size: 1.2vw;
+/*     text-align: center; 
+      */     /* margin: auto;
+     width:50%; */
+
+}
+
+#contact{
+     position: relative;
+     margin-top: -450px; 
+     font-family: garamond-premier-pro-caption, serif;
+     font-weight: 400;
+     font-style: normal;
+     color: #00;
+     font-size: 1.2vw;
+     letter-spacing: 0em;
+padding-bottom: : 50px;
+    
+}
+
+.biocontainer{
+/* position: absolute;
+width:100%; 
+
+ left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); */
+  margin-top: 150px;
+}
+
+#navRabout{
+     font-family: garamond-premier-pro-display, serif;
+     font-weight: 300;
+     font-style: normal;
+     text-transform: lowercase;
+     font-color: black;
+     font-size: 1.2vw;
+     letter-spacing: .2em;
+    text-decoration: none;
+   position:absolute;
+   top:20px;
+   right:20px;
+}
+
+
+
+
+#back{
+   background-image: url(imgs/back.png);
+   background-size: 95%;
+   display: block;
+    text-indent:-9999px;
+   background-repeat: no-repeat;
+
+ }
+
+
+ #khanhcustom{
+background-image: url(imgs/khanh.jpg);
+   background-size: 100%;
+   display: block;
+    text-indent:-9999px;
+   /* background-repeat: no-repeat; */
+   margin-top:50%;
+   height:100%;
+ }
+
+.work1{
+    margin-top: 670px;
+     height: 100px;
+ 
+}
+
+.work2{
+    margin-top: 550px;
+     height: 100px;
+ 
+
+}
+
+.number
+{
+      -webkit-transform: rotate(-90deg) translateX(-4.5%);
+        -webkit-transform-origin: left top;
+         position: relative;
+         transform-origin: -1% 80%;
+         font-size: 1.3vw;
+}
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+
+.caption {
+        -webkit-transform-origin: left bottom;
+         position: absolute;
+         transform-origin: -0% 80%;
+          font-family: garamond-premier-pro-caption, serif;
+     font-weight: 500;
+     font-style: normal;
+     color: #00;
+     text-transform: uppercase;
+     font-size: 1.2vw;
+}
+
+
+}
+
+
+/* Extra large devices (large laptops and desktops, 1600px and up) */
+@media only screen and (min-width: 1600px) {
+
+    footer{
+margin-top: 0px;
+      padding-bottom: 900px;
+}
+
+
+#name {
+     position: relative;
+     top: 50%;
+    left: 50%; 
+     transform: translate(-50%, -50%); 
+     font-family: garamond-premier-pro, serif;
+     font-weight: 400;
+     font-style: normal;
+     text-transform: uppercase;
+     color: #fff;
+    text-align: center;
+          font-size: 3.5vw;
+     letter-spacing: .8em;
+}
+
+#nameAbout {
+     position: relative;
+    margin-top: 20%;
+ /*  left: 90%; */
+           font-family: garamond-premier-pro, serif;
+     font-weight: 400;
+     font-style: normal;
+     text-transform: uppercase;
+     color: #000;
+/*   text-align: center; 
+    */   font-size: 3.683vw;
+     letter-spacing: .8em;
+  /*    margin-left:auto;
+      margin-right:auto;  */
+/*      width:1100px; */
+     
+}
+
+#bio {
+     position: relative;
+     top: 70px;
+     /* left: 200px;   */
+     font-family: garamond-premier-pro-caption, serif;
+     font-weight: 400;
+     font-style: normal;
+     color: #00;
+     font-size: 1.2vw;
+/*     text-align: center; 
+      */     /* margin: auto;
+     width:50%; */
+
+}
+
+#contact{
+     position: relative;
+     margin-top: -450px; 
+     font-family: garamond-premier-pro-caption, serif;
+     font-weight: 400;
+     font-style: normal;
+     color: #00;
+     font-size: 1.2vw;
+     letter-spacing: 0em;
+padding-bottom: : 50px;
+    
+}
+
+.biocontainer{
+/* position: absolute;
+width:100%; 
+
+ left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); */
+  margin-top: 150px;
+}
+
+#navRabout{
+     font-family: garamond-premier-pro-display, serif;
+     font-weight: 300;
+     font-style: normal;
+     text-transform: lowercase;
+     font-color: black;
+     font-size: 1.2vw;
+     letter-spacing: .2em;
+    text-decoration: none;
+   position:absolute;
+   top:20px;
+   right:20px;
+}
+
+
+
+
+#back{
+   background-image: url(imgs/back.png);
+   background-size: 95%;
+   display: block;
+    text-indent:-9999px;
+   background-repeat: no-repeat;
+
+ }
+
+
+ #khanhcustom{
+background-image: url(imgs/khanh.jpg);
+   background-size: 100%;
+   display: block;
+    text-indent:-9999px;
+   /* background-repeat: no-repeat; */
+   margin-top:50%;
+   height:100%;
+ }
+
+.work1{
+    margin-top: 670px;
+     height: 100px;
+ 
+}
+
+.work2{
+    margin-top: 800px;
+     height: 100px;
+ 
+
+}
+
+.number
+{
+      -webkit-transform: rotate(-90deg) translateX(-4.5%);
+        -webkit-transform-origin: left top;
+         position: relative;
+         transform-origin: -1% 80%;
+         font-size: 1.3vw;
+}
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+
+.caption {
+        -webkit-transform-origin: left bottom;
+         position: absolute;
+         transform-origin: -0% 80%;
+          font-family: garamond-premier-pro-caption, serif;
+     font-weight: 500;
+     font-style: normal;
+     color: #00;
+     text-transform: uppercase;
+     font-size: 1.2vw;
+}
+
+
+}
+
+
+
+
+
+
+/* -------------------------------END OF MOBILE-------------------------------------------------*/
+
+
+
+/* ////////////////////////////LIGHT BOX////////////////////////////////////////////////////
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------------------------------------------------------------------------
+ */
+
+/*  #khanhcustom{
+background-image: url(imgs/khanh.jpg);
+  background-size: 100%;
+  display: block;
+   text-indent:-9999px;
+  background-repeat: no-repeat;
+  margin-top:50%;
+  height:100%;
+}
+
+.work1{
+   margin-top: 570px;
+    height: 100px;
+
+}
+
+.work2{
+   margin-top: 600px;
+    height: 100px;
+
+
+}
+
+.number
+{
+     -webkit-transform: rotate(-90deg) translateX(-4.5%);
+       -webkit-transform-origin: left top;
+        position: relative;
+        transform-origin: -1% 80%;
+        font-size: 1.3vw;
+}
+.responsive {
+ width: 100%;
+ height: auto;
+}
+
+
+.caption {
+       -webkit-transform-origin: left bottom;
+        position: absolute;
+        transform-origin: -0% 80%;
+         font-family: garamond-premier-pro-caption, serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #00;
+    text-transform: uppercase;
+    font-size: 1.5vw;
+}
+*/
+
