@@ -288,7 +288,7 @@ margin-top: 0px;
      text-transform: uppercase;
      color: #fff;
     text-align: center;
-          font-size: 3.5vw;
+          font-size: 5vw;
      letter-spacing: .8em;
 }
 
@@ -363,6 +363,19 @@ width:100%;
    right:20px;
 }
 
+#navR{
+     font-family: garamond-premier-pro-display, serif;
+     font-weight: 300;
+     font-style: normal;
+     text-transform: lowercase;
+     color: #fff;
+     font-size: 13px;
+     letter-spacing: .2em;
+    text-decoration: none;
+   position:absolute;
+   top:20px;
+   right:20px;
+}
 
 
 
@@ -898,6 +911,169 @@ background-image: url(imgs/khanh.jpg);
 
 .work1{
     margin-top: 400px;
+     height: 100px;
+ 
+}
+
+.work2{
+    margin-top: 350px;
+     height: 100px;
+ 
+
+}
+
+.number
+{
+      -webkit-transform: rotate(-90deg) translateX(-4.5%);
+        -webkit-transform-origin: left top;
+         position: relative;
+         transform-origin: -1% 80%;
+         font-size: 1.3vw;
+}
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+
+.caption {
+        -webkit-transform-origin: left bottom;
+         position: absolute;
+         transform-origin: -0% 80%;
+          font-family: garamond-premier-pro-caption, serif;
+     font-weight: 500;
+     font-style: normal;
+     color: #00;
+     text-transform: uppercase;
+     font-size: 1.2vw;
+}
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1080px) {
+  footer{
+margin-top: 0px;
+      padding-bottom: 400px;
+}
+
+#name {
+     position: relative;
+     top: 50%;
+    left: 50%; 
+     transform: translate(-50%, -50%); 
+     font-family: garamond-premier-pro, serif;
+     font-weight: 400;
+     font-style: normal;
+     text-transform: uppercase;
+     color: #fff;
+    text-align: center;
+          font-size: 3.5vw;
+     letter-spacing: .8em;
+}
+
+#nameAbout {
+     position: relative;
+    margin-top: 25%;
+ /*  left: 90%; */
+           font-family: garamond-premier-pro, serif;
+     font-weight: 400;
+     font-style: normal;
+     text-transform: uppercase;
+     color: #000;
+/*   text-align: center; 
+    */   font-size: 7vw;
+     letter-spacing: .8em;
+  /*    margin-left:auto;
+      margin-right:auto;  */
+/*      width:1100px; */
+     
+}
+
+#bio {
+     position: relative;
+     margin-top: 125px;
+     /* left: 200px;   */
+     font-family: garamond-premier-pro-caption, serif;
+     font-weight: 400;
+     font-style: normal;
+     color: #00;
+     font-size: 1.7vw;
+/*     text-align: center; 
+      */     /* margin: auto;
+     width:50%; */
+
+}
+
+#contact{
+     position: relative;
+     margin-top: -535px; 
+     font-family: garamond-premier-pro-caption, serif;
+     font-weight: 400;
+     font-style: normal;
+     color: #00;
+     font-size: 1.5vw;
+     letter-spacing: 0em;
+    
+    
+}
+
+.biocontainer{
+/* position: absolute;
+width:100%; 
+
+ left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); */
+  margin-top: 100px;
+}
+
+#navRabout{
+     font-family: garamond-premier-pro-display, serif;
+     font-weight: 300;
+     font-style: normal;
+     text-transform: lowercase;
+     font-color: black;
+     font-size: 1.2vw;
+     letter-spacing: .2em;
+    text-decoration: none;
+   position:absolute;
+   top:20px;
+   right:20px;
+}
+
+#navL{
+   position:absolute;
+   top:20px;
+   left:20px;
+ background-image: url(imgs/back);
+      background-repeat: no-repeat;
+}
+
+
+
+#back{
+   background-image: url(imgs/back.png);
+   background-size: 60%;
+   display: block;
+    text-indent:-9999px;
+   background-repeat: no-repeat;
+
+ }
+
+
+ #khanhcustom{
+background-image: url(imgs/khanh.jpg);
+   background-size: 100%;
+   display: block;
+    text-indent:-9999px;
+   /* background-repeat: no-repeat; */
+   margin-top:50%;
+   height:100%;
+ }
+
+.work1{
+    margin-top: 500px;
      height: 100px;
  
 }
