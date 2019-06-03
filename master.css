@@ -957,6 +957,38 @@ margin-top: 0px;
       padding-bottom: 400px;
 }
 
+
+/* GRID */
+/* Create three equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 14%;
+  padding: 10px;
+}
+
+.column2 {
+  float: left;
+  width: 72%;
+  padding: 10px;
+
+}
+
+.column3 {
+  float: left;
+  width: 14%;
+  padding: 10px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+
+
+
+
 #name {
      position: relative;
      top: 50%;
@@ -1034,7 +1066,7 @@ width:100%;
      font-style: normal;
      text-transform: lowercase;
      font-color: black;
-     font-size: 1.2vw;
+     font-size: 1.3vw;
      letter-spacing: .2em;
     text-decoration: none;
    position:absolute;
