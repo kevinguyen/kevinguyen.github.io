@@ -1014,7 +1014,8 @@ margin-top: 0px;
      text-transform: uppercase;
      color: #000;
 /*   text-align: center; 
-    */   font-size: 7vw;
+    */   
+    font-size: 7.5vw;
      letter-spacing: .8em;
   /*    margin-left:auto;
       margin-right:auto;  */
@@ -1195,7 +1196,7 @@ margin-top: 0px;
      font-style: normal;
      color: #00;
      font-size: 1.2vw;
-/*     text-align: center; 
+  text-align: center; 
       */     /* margin: auto;
      width:50%; */
 
@@ -1211,7 +1212,7 @@ margin-top: 0px;
      font-size: 1.2vw;
      letter-spacing: 0em;
 padding-bottom: : 50px;
-    
+    text-align: center;
 }
 
 .biocontainer{
