@@ -202,8 +202,8 @@ width:100%;
 }
 
 a{
-      color: #FFFFFF;
-    text-decoration: none;
+      color: #fff;
+  text-decoration: none; 
 }
 
 
@@ -1372,6 +1372,19 @@ margin-top: 0px;
      font-size: 1.2vw;
      letter-spacing: 0em;
 padding-bottom: : 50px;
+    
+}
+
+#resume{
+     position: relative;
+     margin-top: -1px; 
+     font-family: garamond-premier-pro-caption, serif;
+     font-weight: 400;
+     font-style: normal;
+     color: #00;
+     font-size: 1.2vw;
+     letter-spacing: 0em;
+padding-bottom: : 500px;
     
 }
 
